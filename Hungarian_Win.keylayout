@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 359 on 2023-06-18 at 5:54 (GMT+2)-->
+<!--Last edited by Ukelele version 359 on 2023-06-18 at 6:16 (GMT+2)-->
 <!---->
-<keyboard group="126" id="-19903" name="Hungarian Windows-style" maxout="1">
+<keyboard group="126" id="-19903" name="Hungarian" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
     </layouts>
