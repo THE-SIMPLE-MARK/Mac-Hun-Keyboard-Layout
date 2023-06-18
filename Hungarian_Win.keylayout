@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 2.2.8 on 2015-07-26 at 00:47 (BST)-->
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Last edited by Ukelele version 359 on 2023-06-18 at 5:54 (GMT+2)-->
 <!---->
-<keyboard group="29" id="30763" name="HungarianWin" maxout="1">
+<keyboard group="126" id="-19903" name="Hungarian Windows-style" maxout="1">
     <layouts>
-        <layout first="0" last="0" modifiers="30" mapSet="138"/>
+        <layout first="0" last="0" mapSet="138" modifiers="30"/>
     </layouts>
     <modifierMap id="30" defaultIndex="0">
         <keyMapSelect mapIndex="0">
@@ -53,7 +53,7 @@
             <key code="7" output="x"/>
             <key code="8" action="15"/>
             <key code="9" output="v"/>
-            <key code="10" output="0"/>
+            <key code="10" output="í"/>
             <key code="11" output="b"/>
             <key code="12" output="q"/>
             <key code="13" output="w"/>
@@ -93,7 +93,7 @@
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="5"/>
-            <key code="50" output="í"/>
+            <key code="50" output="0"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -165,7 +165,7 @@
             <key code="7" output="X"/>
             <key code="8" action="14"/>
             <key code="9" output="V"/>
-            <key code="10" output="§"/>
+            <key code="10" output="&#x003C;"/>
             <key code="11" output="B"/>
             <key code="12" output="Q"/>
             <key code="13" output="W"/>
@@ -393,7 +393,7 @@
             <key code="11" output="{"/>
             <key code="12" output="\"/>
             <key code="13" output="|"/>
-            <key code="14" output="€"/>
+            <key code="14" output="ä"/>
             <key code="15" output="¶"/>
             <key code="16" output="ź"/>
             <key code="17" output="†"/>
@@ -411,9 +411,9 @@
             <key code="29" output="}"/>
             <key code="30" output="~"/>
             <key code="31" output="Ņ"/>
-            <key code="32" action="0"/>
+            <key code="32" output="€"/>
             <key code="33" output="¨"/>
-            <key code="34" action="1"/>
+            <key code="34" output="í"/>
             <key code="35" output="Ļ"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="•"/>
@@ -425,8 +425,8 @@
             <key code="43" output=";"/>
             <key code="44" output="*"/>
             <key code="45" output="}"/>
-            <key code="46" output="&#x003C;"/>
-            <key code="47" output="&#x003E;"/>
+            <key code="46" output=""/>
+            <key code="47" output=""/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
             <key code="50" output="&#x003C;"/>
@@ -530,7 +530,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" output="Ů"/>
             <key code="38" output="Í"/>
-            <key code="39" action="4"/>
+            <key code="39" action="s5"/>
             <key code="40" output="&#x0026;"/>
             <key code="41" output="ō"/>
             <key code="42" output="Ģ"/>
@@ -946,41 +946,6 @@
         <action id="1">
             <when state="none" next="s2"/>
         </action>
-        <action id="2">
-            <when state="none" next="s3"/>
-        </action>
-        <action id="3">
-            <when state="none" next="s4"/>
-        </action>
-        <action id="4">
-            <when state="none" next="s5"/>
-        </action>
-        <action id="5">
-            <when state="none" output=" "/>
-            <when state="s1" output="¨"/>
-            <when state="s2" output="^"/>
-            <when state="s3" output="–"/>
-            <when state="s4" output="~"/>
-            <when state="s5" output="ˇ"/>
-        </action>
-        <action id="6">
-            <when state="none" output="A"/>
-            <when state="s1" output="Ä"/>
-        </action>
-        <action id="7">
-            <when state="none" output="O"/>
-            <when state="s1" output="Ö"/>
-            <when state="s2" output="Ô"/>
-            <when state="s4" output="Õ"/>
-        </action>
-        <action id="8">
-            <when state="none" output="U"/>
-            <when state="s1" output="Ü"/>
-        </action>
-        <action id="9">
-            <when state="none" output="a"/>
-            <when state="s1" output="ä"/>
-        </action>
         <action id="10">
             <when state="none" output="o"/>
             <when state="s1" output="ö"/>
@@ -1050,6 +1015,38 @@
         <action id="26">
             <when state="none" output="z"/>
             <when state="s5" output="ž"/>
+        </action>
+        <action id="4">
+            <when state="none" next="s5"/>
+        </action>
+        <action id="5">
+            <when state="none" output=" "/>
+            <when state="s1" output="¨"/>
+            <when state="s2" output="^"/>
+            <when state="s3" output="–"/>
+            <when state="s4" output="~"/>
+            <when state="s5" output="ˇ"/>
+        </action>
+        <action id="6">
+            <when state="none" output="A"/>
+            <when state="s1" output="Ä"/>
+        </action>
+        <action id="7">
+            <when state="none" output="O"/>
+            <when state="s1" output="Ö"/>
+            <when state="s2" output="Ô"/>
+            <when state="s4" output="Õ"/>
+        </action>
+        <action id="8">
+            <when state="none" output="U"/>
+            <when state="s1" output="Ü"/>
+        </action>
+        <action id="9">
+            <when state="none" output="a"/>
+            <when state="s1" output="ä"/>
+        </action>
+        <action id="s5">
+            <when state="none" next="s5"/>
         </action>
     </actions>
     <terminators>
